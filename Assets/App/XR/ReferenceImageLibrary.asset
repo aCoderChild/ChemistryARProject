@@ -119,3 +119,33 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Helium
     m_Texture: {fileID: 2800000, guid: 672ea648749d44f958917131688a14a4, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4784271253641588094
+      m_GuidHigh: 17718730367763774382
+    m_SerializedTextureGuid:
+      m_GuidLow: 4965191678189555144
+      m_GuidHigh: 3551052699802742953
+    m_Size: {x: 0.06, y: 0.06}
+    m_SpecifySize: 1
+    m_Name: Silicon
+    m_Texture: {fileID: 2800000, guid: 4c36cdc8e78644e7a9306fbe9ddf4731, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5024655403193074040
+      m_GuidHigh: 15448231956530608798
+    m_SerializedTextureGuid:
+      m_GuidLow: 2618708150293896368
+      m_GuidHigh: 15812859788794526778
+    m_Size: {x: 0.06, y: 0.06}
+    m_SpecifySize: 1
+    m_Name: Neon
+    m_Texture: {fileID: 2800000, guid: 2cb01cb0853024573afc27a2329072db, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5688074200496473317
+      m_GuidHigh: 5480193157074011813
+    m_SerializedTextureGuid:
+      m_GuidLow: 1508398967377079832
+      m_GuidHigh: 12882017653238534202
+    m_Size: {x: 0.06, y: 0.06}
+    m_SpecifySize: 1
+    m_Name: Potassium
+    m_Texture: {fileID: 2800000, guid: 7613ae18e8de14ee3a1098c3cd1ec6b2, type: 3}

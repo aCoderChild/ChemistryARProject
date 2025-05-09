@@ -1,30 +1,23 @@
-Unity Editor version:    2022.3.61f1 (6c53ebaf375d)
-Branch:                  2022.3/release
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 15.5 (Build 24F5068b)
-Darwin version:          24.5.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        24576 MB
 Using pre-set license
-Pro License: YES
+Built from '2022.3/release' branch; Version is '2022.3.61f1 (6c53ebaf375d) revision 7099371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7957 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/MacOS/Unity
+E:\unity\2022.3.61f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/maianhpham/Downloads/Chemistry Project
+C:/Users/Admin/Desktop/ChemistryARProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54402
-Successfully changed project path to: /Users/maianhpham/Downloads/Chemistry Project
-/Users/maianhpham/Downloads/Chemistry Project
+64702
+Successfully changed project path to: C:/Users/Admin/Desktop/ChemistryARProject
+C:/Users/Admin/Desktop/ChemistryARProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,83 +49,72 @@ Successfully changed project path to: /Users/maianhpham/Downloads/Chemistry Proj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8547983040]  Target information:
+Player connection [14704]  Target information:
 
-Player connection [8547983040]  * "[IP] 192.168.0.189 [Port] 0 [Flags] 2 [Guid] 1880393693 [EditorId] 1880393693 [Version] 1048832 [Id] OSXEditor(0,Mais-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [14704]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4182405348 [EditorId] 4182405348 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08LS6DVK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8547983040] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8547983040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14704]  * "[IP] 26.170.102.168 [Port] 0 [Flags] 2 [Guid] 4182405348 [EditorId] 4182405348 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08LS6DVK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14704]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 4182405348 [EditorId] 4182405348 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-08LS6DVK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14704] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14704] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 16.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/maianhpham/Downloads/Chemistry Project/Assets
+[Subsystems] Discovering subsystems at path E:/unity/2022.3.61f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Desktop/ChemistryARProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M4 Pro (high power)
-Metal devices available: 1
-0: Apple M4 Pro (high power)
-Using device Apple M4 Pro (high power)
-Initializing Metal device caps: Apple M4 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3978 MB
+    Driver:   31.0.101.4502
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56105
+Mono path[0] = 'E:/unity/2022.3.61f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2022.3.61f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
-Registered in 0.004012 seconds.
-- Loaded All Assemblies, in  0.162 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for AppleTV target not found
-objc[8105]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x13b3845c8) and /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x13b3b05c8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 56 ms
-Native extension for OSXStandalone target not found
+Register platform support module: E:/unity/2022.3.61f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002521 seconds.
+- Loaded All Assemblies, in  0.467 seconds
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.233 seconds
-Domain Reload Profiling: 394ms
-	BeginReloadAssembly (39ms)
+- Finished resetting the current domain, in  0.354 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (76ms)
-		LoadAssemblies (40ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (73ms)
-				TypeCache.ScanAssembly (65ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (190ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (233ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (354ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (286ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (143ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (46ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,12 +123,8 @@ Domain Reload Profiling: 394ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.330 seconds
-Native extension for AppleTV target not found
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
+- Loaded All Assemblies, in  0.919 seconds
+Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -158,192 +136,69 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.361 seconds
-Domain Reload Profiling: 692ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  1.030 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (202ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (231ms)
-		LoadAssemblies (151ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (418ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (97ms)
-				TypeCache.ScanAssembly (84ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (362ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1030ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (276ms)
+		SetupLoadedEditorAssemblies (774ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.6 MB). Loaded Objects now: 5027.
-Memory consumption went from 166.0 MB to 164.4 MB.
-Total: 2.618333 ms (FindLiveObjects: 0.101667 ms CreateObjectMapping: 0.047583 ms MarkObjects: 2.021250 ms  DeleteObjects: 0.447500 ms)
+Unloading 32 unused Assets / (1.4 MB). Loaded Objects now: 5025.
+Memory consumption went from 155.4 MB to 153.9 MB.
+Total: 5.188300 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.171400 ms MarkObjects: 3.898100 ms  DeleteObjects: 0.747800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 63561.197971 seconds.
-  path: Assets/App/Art/Elements/002-Helium.png
-  artifactKey: Guid(672ea648749d44f958917131688a14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Art/Elements/002-Helium.png using Guid(672ea648749d44f958917131688a14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fe68a8319af6951edd7cf74d594ad1f6') in 0.058666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.528289 seconds.
-  path: Assets/App/XR/ReferenceImageLibrary.asset
-  artifactKey: Guid(21cf831e6eb7f614b899e8385efbbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/XR/ReferenceImageLibrary.asset using Guid(21cf831e6eb7f614b899e8385efbbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3c6a48cc4d742e0408d3c02a15b4e772') in 0.013151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 11.986340 seconds.
-  path: Assets/App/Prefabs/Elements/hydrogen 1.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/hydrogen 1.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd015c61fc7a4e808eec8c44049ac2838') in 0.094933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 7.616398 seconds.
-  path: Assets/App/Prefabs/Elements/helium.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42e9685faee277282d81687f68282fa0') in 0.009464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 74.378330 seconds.
-  path: Assets/App/Prefabs/Elements/helium.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '706905cf393d07b3d1542a75b6aa63d6') in 0.020717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 76.103302 seconds.
-  path: Assets/App/Prefabs/Elements/helium.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '615d5d6ef595f29350c6a0b8e669a271') in 0.051667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 33.573040 seconds.
-  path: Assets/App/Materials/connector.mat
-  artifactKey: Guid(ec87e1384ea823142a42f37e321a5959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/connector.mat using Guid(ec87e1384ea823142a42f37e321a5959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '53dfb830ace33c14b21e1b5066feb0d5') in 0.034556 seconds
+  Time since last request: 9471.039243 seconds.
+  path: Assets/App/Materials/Elements/potassium.mat
+  artifactKey: Guid(d07c123859f078a49bbda586ef4be145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/potassium.mat using Guid(d07c123859f078a49bbda586ef4be145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b11f69a020c1dc4462e4c201645e0fcc') in 0.128091 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/App/Materials/Elements/nitrogen.mat
-  artifactKey: Guid(195b44a3122ed6f45a968a8fb58e30eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/nitrogen.mat using Guid(195b44a3122ed6f45a968a8fb58e30eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2910cbda85cb9b2eca910bcd9fc3a929') in 0.002948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/App/Materials/Elements/fluorine.mat
-  artifactKey: Guid(5c85630fe7656e74f8a30c4a355071d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/fluorine.mat using Guid(5c85630fe7656e74f8a30c4a355071d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bb316b16ba418391a9f07b869ce80ed1') in 0.003194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/App/Materials/Elements/phosphorus.mat
-  artifactKey: Guid(546282f2028487d47b0c69e9734b4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/phosphorus.mat using Guid(546282f2028487d47b0c69e9734b4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7d970e28edceb01afa988c7189005638') in 0.004124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/App/Materials/Elements/oxygen.mat
-  artifactKey: Guid(1c7ea2efd74f16343a02c23d1f4b1801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/oxygen.mat using Guid(1c7ea2efd74f16343a02c23d1f4b1801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aeff8da70f6ee62b2a5aba9497449140') in 0.003635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/App/Materials/Elements/sodium.mat
-  artifactKey: Guid(b10f88d3843a04370b125508d418e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/sodium.mat using Guid(b10f88d3843a04370b125508d418e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e120480c54c34e97cfa1b8bb90a8ec29') in 0.003556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/App/Materials/Elements/helium.mat
-  artifactKey: Guid(a5ed03e616b194bc38de5bed76a758e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/helium.mat using Guid(a5ed03e616b194bc38de5bed76a758e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '712012a7f1cfc1e29015c7affb8cb8e0') in 0.003362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
-AssetImportWorker is now disconnected from the server
-Process exiting
