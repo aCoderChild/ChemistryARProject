@@ -33,17 +33,10 @@ An augmented reality (AR) application built in Unity to visualize chemical eleme
 4. Push: `git push origin your-feature-branch`.
 5. Open a pull request to `main` or `H_elements`.
 
-**Note**: Track large files (>100 MB) with Git LFS: `git lfs track "path/to/large/file"`.
-
 ## Known Issues
 - **Large Files**: Files like `Library/ArtifactDB` may exceed GitHub’s 100 MB limit. Use Git LFS: `git lfs migrate import --include="Library/ArtifactDB" --everything`.
 - **Lighting**: Rebuild lighting data in Unity if errors occur: **Window** > **Rendering** > **Lighting** > **Generate Lighting**.
 - **AR Compatibility**: Test on ARCore/ARKit-supported devices.
 
-## License
-MIT License. See `LICENSE` for details.
-
 ## Acknowledgments
-- Original project by [aCoderChild](https://github.com/aCoderChild).
-- Contributions by [HieuNGN](https://github.com/HieuNGN) for new elements and AR enhancements.
 - Built with Unity, ARFoundation, ARCore, and ARKit.
