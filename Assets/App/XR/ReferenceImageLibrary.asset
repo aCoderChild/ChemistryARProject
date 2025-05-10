@@ -119,3 +119,33 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Helium
     m_Texture: {fileID: 2800000, guid: 672ea648749d44f958917131688a14a4, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4647187647759005541
+      m_GuidHigh: 4514425169409292186
+    m_SerializedTextureGuid:
+      m_GuidLow: 9571773190542328316
+      m_GuidHigh: 10614791603393298232
+    m_Size: {x: 0.06, y: 0.06}
+    m_SpecifySize: 1
+    m_Name: Sulfur
+    m_Texture: {fileID: 2800000, guid: dce201fcc50084d5387f0e45b9504f93, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5166809939005563795
+      m_GuidHigh: 5420639843412274076
+    m_SerializedTextureGuid:
+      m_GuidLow: 6100044226392895625
+      m_GuidHigh: 12605215984590512442
+    m_Size: {x: 0.06, y: 0.06}
+    m_SpecifySize: 1
+    m_Name: Copper
+    m_Texture: {fileID: 2800000, guid: 8c523089b5e754a73ae1971627b9eeae, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5054509137393594044
+      m_GuidHigh: 12201352959418800531
+    m_SerializedTextureGuid:
+      m_GuidLow: 17641184693701149998
+      m_GuidHigh: 2372693102665065226
+    m_Size: {x: 0.06, y: 0.06}
+    m_SpecifySize: 1
+    m_Name: Zinc
+    m_Texture: {fileID: 2800000, guid: 0d1d852e1403f4d20ae35e49ce7fed20, type: 3}

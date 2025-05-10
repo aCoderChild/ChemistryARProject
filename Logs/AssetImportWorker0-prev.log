@@ -1,0 +1,805 @@
+Unity Editor version:    6000.1.2f1 (8e2281df4c52)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Fri May  2 14:16:46 UTC 2025
+Kernel version:          6.14.5-300.fc42.x86_64
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        23764 MB
+Date:                    2025-05-09T17:37:33Z
+Using pre-set license
+Pro License: YES
+Selected window backend: (null) 
+Desktop is 4224 x 1296 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+34795
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork
+
+(Unity:20227): Gtk-CRITICAL **: 00:37:33.359: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+
+(Unity:20227): Gtk-CRITICAL **: 00:37:33.359: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+/mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140061775463808]  Target information:
+
+Player connection [140061775463808]  * "[IP] 192.168.2.47 [Port] 0 [Flags] 2 [Guid] 625247863 [EditorId] 625247863 [Version] 1048832 [Id] LinuxEditor(16,172.16.0.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140061775463808]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 625247863 [EditorId] 625247863 [Version] 1048832 [Id] LinuxEditor(16,172.16.0.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140061775463808]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 625247863 [EditorId] 625247863 [Version] 1048832 [Id] LinuxEditor(16,172.16.0.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140061775463808] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140061775463808] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.2f1 (8e2281df4c52)
+[Subsystems] Discovering subsystems at path /mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 25.0.4
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_t
+exture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlo
+ck GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1652550400
+Initialize mono
+Mono path[0] = '/mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/Managed'
+Mono path[1] = '/mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56227
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.006471 seconds.
+- Loaded All Assemblies, in  1.131 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 2503ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (584ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (572ms)
+			TypeCache.Refresh (569ms)
+				TypeCache.ScanAssembly (526ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1373ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (176ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (522ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.776 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.970 seconds
+Domain Reload Profiling: 3743ms
+	BeginReloadAssembly (358ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (1158ms)
+		LoadAssemblies (644ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (652ms)
+			TypeCache.Refresh (505ms)
+				TypeCache.ScanAssembly (458ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (350ms)
+			ProcessInitializeOnLoadAttributes (1139ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4820 unused Assets / (4.6 MB). Loaded Objects now: 5328.
+Memory consumption went from 89.2 MB to 84.6 MB.
+Total: 32.545721 ms (FindLiveObjects: 1.338741 ms CreateObjectMapping: 1.663809 ms MarkObjects: 20.879584 ms  DeleteObjects: 8.658208 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4638.613691 seconds.
+  path: Assets/App/Art/Elements/008-Oxygen.png
+  artifactKey: Guid(8d107639b4d504f93892d75947a8547d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/008-Oxygen.png using Guid(8d107639b4d504f93892d75947a8547d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b1e2da387d2f9e84bc8769c394d75cd') in 0.184078633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/App/Art/Elements/012-Magnesium.png
+  artifactKey: Guid(c47aea3cf97c74c6d8f0e6d77189ef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/012-Magnesium.png using Guid(c47aea3cf97c74c6d8f0e6d77189ef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bf53f2b9597db86791f6c06bd2e3a82') in 0.007839705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/App/Art/Elements/038-Strontium.png
+  artifactKey: Guid(685297feee42c4c6d990f62633cb59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/038-Strontium.png using Guid(685297feee42c4c6d990f62633cb59af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8949af5aa79e048ab41f556892d2c4cb') in 0.011698122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/App/Art/Elements/033-Arsenic.png
+  artifactKey: Guid(d49d46327ab474e09ad09b0b1332bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/033-Arsenic.png using Guid(d49d46327ab474e09ad09b0b1332bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06a8b5c3493747294e618f4f56574937') in 0.014431497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001241 seconds.
+  path: Assets/App/Art/Elements/016-Sulfur.png
+  artifactKey: Guid(dce201fcc50084d5387f0e45b9504f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/016-Sulfur.png using Guid(dce201fcc50084d5387f0e45b9504f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa70322b1a64142a8936e8d6c9e286e0') in 0.008381477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/App/Art/Elements/016-Sulphur.png
+  artifactKey: Guid(eefc256f4f6274e88a7287da966b7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/016-Sulphur.png using Guid(eefc256f4f6274e88a7287da966b7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed12620ff08a82b81d2cb270ec18cefc') in 0.013622223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/App/Art/Elements/017-Chlorine.png
+  artifactKey: Guid(9167fbb4b69ac4189a915320f42fbf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/017-Chlorine.png using Guid(9167fbb4b69ac4189a915320f42fbf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d5aa19622e25cb8ab212a1f0f61032') in 0.0132035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/App/Art/Elements/020-Calcium.png
+  artifactKey: Guid(a339a4adb2337485abf57257d7a20746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/020-Calcium.png using Guid(a339a4adb2337485abf57257d7a20746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14b7ca8ce5f4121c45f06775b721f42f') in 0.009552451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/App/Art/Elements/018-Argon.png
+  artifactKey: Guid(9458f142374fd412b87d2727171c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/018-Argon.png using Guid(9458f142374fd412b87d2727171c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b93df2c7c7f77d755901dfc0a337196') in 0.007286233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/App/Art/Elements/032-Germanium.png
+  artifactKey: Guid(9fb60083cc74743c7b73a7c1046bf7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/032-Germanium.png using Guid(9fb60083cc74743c7b73a7c1046bf7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f59db98093ed7558d65e5f32b3e61f73') in 0.018218034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/App/Art/Elements/010-Neon.png
+  artifactKey: Guid(2cb01cb0853024573afc27a2329072db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/010-Neon.png using Guid(2cb01cb0853024573afc27a2329072db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f66e4c02f98ff1705aa4e9497bf37734') in 0.016046167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/App/Art/Elements/027-Cobalt.png
+  artifactKey: Guid(823e0c211e98f4211878aecb13c6723d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/027-Cobalt.png using Guid(823e0c211e98f4211878aecb13c6723d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7ea0ae49967f45cbb92677c7b83662d') in 0.009818833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/App/Art/Elements/004-Beryllium.png
+  artifactKey: Guid(a4d9415b737494d898037bdd5dc83085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/004-Beryllium.png using Guid(a4d9415b737494d898037bdd5dc83085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66c30081002a09ce416ac445c002c9c3') in 0.017009915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/App/Art/Elements/013-Aluminium.png
+  artifactKey: Guid(1b145233c07e146a48b211a71314fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/013-Aluminium.png using Guid(1b145233c07e146a48b211a71314fd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c23827ccf9f631aaad649992bbda3b18') in 0.013957381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/App/Art/Elements/026-Iron.png
+  artifactKey: Guid(f7df870c1efaa4eb696e8cc55dd248da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/026-Iron.png using Guid(f7df870c1efaa4eb696e8cc55dd248da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e867177136aac11d0f7bfbe029488f6') in 0.010863674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/App/Art/Elements/035-Bromine.png
+  artifactKey: Guid(a48bfbe7669ad458d91bb6f49e4080da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/035-Bromine.png using Guid(a48bfbe7669ad458d91bb6f49e4080da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f7afce5537660403c63a21b05ac9d5') in 0.015243653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/App/Art/Elements/037-Rubidium.png
+  artifactKey: Guid(50a04d0d619cd43bdb85c73829ae09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/037-Rubidium.png using Guid(50a04d0d619cd43bdb85c73829ae09cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bead1e86a90e27fe476d37cabf0e751a') in 0.010881721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001683 seconds.
+  path: Assets/App/Art/Elements/039-Yttrium.png
+  artifactKey: Guid(6f6bdfc53bc4f41b281d1c9c40ac2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/039-Yttrium.png using Guid(6f6bdfc53bc4f41b281d1c9c40ac2348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c97ec3ce26f71cd0abe89a18eb9fdbd6') in 0.012091097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/App/Art/Elements/007-Nitrogen.png
+  artifactKey: Guid(0f7d5b5e4f8d6424d86656a16966223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/007-Nitrogen.png using Guid(0f7d5b5e4f8d6424d86656a16966223b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793a92c85a3574d64963da5cdb376129') in 0.014458715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/App/Art/Elements/001-Hydrogen.png
+  artifactKey: Guid(7f24316487c2b44db8f2dfc3bf1cc607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/001-Hydrogen.png using Guid(7f24316487c2b44db8f2dfc3bf1cc607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff82ae553a7730b765fe2b005c5d00ab') in 0.019165571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/App/Art/Elements/023-Vanadium.png
+  artifactKey: Guid(0650877e85c3e495fb1c6c038d445d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/023-Vanadium.png using Guid(0650877e85c3e495fb1c6c038d445d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72af7cdb075e294f84de706f0fb84989') in 0.011762041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001272 seconds.
+  path: Assets/App/Art/Elements/005-Boron.png
+  artifactKey: Guid(671b759d7bba84c9daf4470aaa8c6bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/005-Boron.png using Guid(671b759d7bba84c9daf4470aaa8c6bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '959d0827e6c0c9b9c9c9d847c054245c') in 0.019657205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/App/Art/Elements/015-Phosphorus.png
+  artifactKey: Guid(99b879fbe447940ffa4737dc11acb676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/015-Phosphorus.png using Guid(99b879fbe447940ffa4737dc11acb676) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b270e9140eb4a7dfdc8832e9ef9d784') in 0.016768762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/App/Art/Elements/021-Scandium.png
+  artifactKey: Guid(e7f78edec6448402a838017c69825bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/021-Scandium.png using Guid(e7f78edec6448402a838017c69825bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1177eeb736c1f64ca3f20ce7bf5c867a') in 0.008661682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/App/Art/Elements/029-Copper.png
+  artifactKey: Guid(8c523089b5e754a73ae1971627b9eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/029-Copper.png using Guid(8c523089b5e754a73ae1971627b9eeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd467e59a34891d54af7d85e4a9b874f1') in 0.010802531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/App/Art/Elements/028-Nickel.png
+  artifactKey: Guid(510cd2adef185418a967a764af119a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/028-Nickel.png using Guid(510cd2adef185418a967a764af119a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d89579db373c0ca09a05c4dc2071e0d') in 0.013051804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/App/Art/Elements/031-Gallium.png
+  artifactKey: Guid(1f23ab196df7d4203b78d3192ce9f888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/031-Gallium.png using Guid(1f23ab196df7d4203b78d3192ce9f888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd47b86c96d542c378b9b119f1fa668c9') in 0.013755362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/App/Art/Elements/030-Zinc.png
+  artifactKey: Guid(0d1d852e1403f4d20ae35e49ce7fed20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/030-Zinc.png using Guid(0d1d852e1403f4d20ae35e49ce7fed20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f8c5cf2090260edf309ef81cb2afebb') in 0.01620308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/App/Art/Elements/013-Aluminum.png
+  artifactKey: Guid(916faf74535fe4eaf81772bf4c50e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/013-Aluminum.png using Guid(916faf74535fe4eaf81772bf4c50e361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b7017c4bd0325e2ad836151fda3d90') in 0.010962855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.318932 seconds.
+  path: Assets/App/Prefabs/Elements/carbon.prefab
+  artifactKey: Guid(fe2f693b570770f4bbe522e1bcb6554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/carbon.prefab using Guid(fe2f693b570770f4bbe522e1bcb6554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ba48ce17d1cf1ed00596094faf18ca9') in 1.104556971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/App/Prefabs/Elements/helium.prefab
+  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e763fdbc482f50fa12d8af6cf696e7cc') in 0.026753161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/App/Prefabs/Elements/fluorine.prefab
+  artifactKey: Guid(a149f334b5295d741adc6d38d6995eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/fluorine.prefab using Guid(a149f334b5295d741adc6d38d6995eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd04e544a587a1c88a246aeecf32c9b49') in 0.024814373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.786329 seconds.
+  path: Assets/App/Art/Elements/041-Niobium.png
+  artifactKey: Guid(03eee24a82bb34807b17986c78d82ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/041-Niobium.png using Guid(03eee24a82bb34807b17986c78d82ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b014cf33868e0bfb484e18ce321210') in 0.006484727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/App/Art/Elements/047-Silver.png
+  artifactKey: Guid(3a6d0781db0204b59a36669de4320f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/047-Silver.png using Guid(3a6d0781db0204b59a36669de4320f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a54a805e27fa369ec25b814b982f48cd') in 0.019118701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/App/Art/Elements/046-Palladium.png
+  artifactKey: Guid(63f0c1cb3eb784159920ff407bd3b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/046-Palladium.png using Guid(63f0c1cb3eb784159920ff407bd3b8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1d923275e5bbbf6a898ed398e963f8f') in 0.013631657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.507750 seconds.
+  path: Assets/App/Art/Elements/049-Indium.png
+  artifactKey: Guid(c9d6a547a0ec74c1a9d0505a0aa5693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/049-Indium.png using Guid(c9d6a547a0ec74c1a9d0505a0aa5693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af2bdb14cae20cb3fdbae6a0b44b7e7') in 0.008640447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/App/Art/Elements/053-Iodine.png
+  artifactKey: Guid(ea1b4a31f278e4726b46e3d4cd706675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/053-Iodine.png using Guid(ea1b4a31f278e4726b46e3d4cd706675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48883902d586c1479a334494cd070cd2') in 0.015842667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036087 seconds.
+  path: Assets/App/Art/Elements/057-071-Lanthanoids.png
+  artifactKey: Guid(49f231ff89a7942cb9879f98eb5a18ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/057-071-Lanthanoids.png using Guid(49f231ff89a7942cb9879f98eb5a18ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9032e3ab5eb82e94d2c58b8fd82a9a3') in 0.01976832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/App/Art/Elements/058-Cerium.png
+  artifactKey: Guid(f8149271a9b9b40c286fd7afa3119a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/058-Cerium.png using Guid(f8149271a9b9b40c286fd7afa3119a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eba65386aaa8adfddff01a66e1cfef43') in 0.011508938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/App/Art/Elements/059-Praseodymium.png
+  artifactKey: Guid(36aba286decbe45ad87fc28c18bc4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/059-Praseodymium.png using Guid(36aba286decbe45ad87fc28c18bc4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f31dbd825362ad9db4ea37ac10231e4') in 0.018968422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.483044 seconds.
+  path: Assets/App/Art/Elements/064-Gadolinium.png
+  artifactKey: Guid(68fda25147131412d9fa2a7910edad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/064-Gadolinium.png using Guid(68fda25147131412d9fa2a7910edad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18c5634cd2f2b314e9ae2dfe14ffd182') in 0.005941697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/App/Art/Elements/066-Dysprosium.png
+  artifactKey: Guid(84d581a56c4b14e1e8631264618b6743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/066-Dysprosium.png using Guid(84d581a56c4b14e1e8631264618b6743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2105ce781e40569e0723e57dd9a3e0c1') in 0.020252558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/App/Art/Elements/067-Holmium.png
+  artifactKey: Guid(73ca41140d9ce403baa2bf99112c913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/067-Holmium.png using Guid(73ca41140d9ce403baa2bf99112c913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b74c2f999143b59ae48867b67381a9a') in 0.010822628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021370 seconds.
+  path: Assets/App/Art/Elements/072-Hafnium.png
+  artifactKey: Guid(f290b2f5d13e647dd92f43d8006c3856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/072-Hafnium.png using Guid(f290b2f5d13e647dd92f43d8006c3856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca3b934efc02f852f1b35e2f1a078cfc') in 0.00652471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/App/Art/Elements/076-Osmium.png
+  artifactKey: Guid(107541a97433a42db83c7458e87ab203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/076-Osmium.png using Guid(107541a97433a42db83c7458e87ab203) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a614e12b5a7f4d2393390ead5b2fe17') in 0.014735232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/App/Art/Elements/077-Iridium.png
+  artifactKey: Guid(dc7bddf6783a5475b977d4c3f47cf8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/077-Iridium.png using Guid(dc7bddf6783a5475b977d4c3f47cf8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2589225ab3914054761ef152026a827') in 0.010313602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364614 seconds.
+  path: Assets/App/Art/Elements/080-Mercury.png
+  artifactKey: Guid(2c8e9bcbaba5d452ab30c922300e029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/080-Mercury.png using Guid(2c8e9bcbaba5d452ab30c922300e029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12bb0d4e29b9e47ded1854e4e08196e6') in 0.011881804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/App/Art/Elements/083-Bismuth.png
+  artifactKey: Guid(02c1bbccef02149d5bdb924e9108ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/083-Bismuth.png using Guid(02c1bbccef02149d5bdb924e9108ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb29e0d1347d6133c5d0451276189e2a') in 0.008743648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/App/Art/Elements/086-Radon.png
+  artifactKey: Guid(c9fddb493d9a34182a05a5fce94ace57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/086-Radon.png using Guid(c9fddb493d9a34182a05a5fce94ace57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c7192cebecbda339f6f9f8610b737c') in 0.011440526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007889 seconds.
+  path: Assets/App/Art/Elements/088-Radium.png
+  artifactKey: Guid(fcb5182517bd640ee9710ef108494d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/088-Radium.png using Guid(fcb5182517bd640ee9710ef108494d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89c231244a67d1b3787dbd683a24786a') in 0.011231423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/App/Art/Elements/089-Actinium.png
+  artifactKey: Guid(c0c18340184674aa5b81da0d6e474ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/089-Actinium.png using Guid(c0c18340184674aa5b81da0d6e474ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e3d3c5eab03792506384190e35244c4') in 0.014875909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/App/Art/Elements/090-Thorium.png
+  artifactKey: Guid(471a66141a0fe415e89426151b6802e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/090-Thorium.png using Guid(471a66141a0fe415e89426151b6802e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18065058dbcb03d65ada69cdeba21d26') in 0.00941261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038024 seconds.
+  path: Assets/App/Art/Elements/095-Americium.png
+  artifactKey: Guid(16113851585794632aa4bed019ffcf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/095-Americium.png using Guid(16113851585794632aa4bed019ffcf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3bc316742ab5c29697c29b26a8cce10') in 0.019568783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/App/Art/Elements/101-Mendelevium.png
+  artifactKey: Guid(6cef4fef1434241ccb59c88d6d280023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/101-Mendelevium.png using Guid(6cef4fef1434241ccb59c88d6d280023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2eca842beb25439468688f0834527f7') in 0.014490859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263566 seconds.
+  path: Assets/App/Art/Elements/103-Lawrencium.png
+  artifactKey: Guid(ce1f98ad0ef1a440d8d7ba0a08e95f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/103-Lawrencium.png using Guid(ce1f98ad0ef1a440d8d7ba0a08e95f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd47b03d686e579fb8412a2cb3d2149ce') in 0.008955405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/App/Art/Elements/108-Hassium.png
+  artifactKey: Guid(f4088366ebf004b41bdb4784f6925cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/108-Hassium.png using Guid(f4088366ebf004b41bdb4784f6925cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e940c91f04e43bb4b9cc0984130dd07') in 0.013568731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/App/Art/Elements/109-Meitnerium.png
+  artifactKey: Guid(bce5e95fb7fcf40098249d3da626d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/109-Meitnerium.png using Guid(bce5e95fb7fcf40098249d3da626d0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09f99f67a481f54fdd179a217489d593') in 0.00917429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017325 seconds.
+  path: Assets/App/Art/Elements/111-Roentgenium.png
+  artifactKey: Guid(0faa16a232dc548faa357fd4b0f6ebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/111-Roentgenium.png using Guid(0faa16a232dc548faa357fd4b0f6ebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '686e926a688bd78f05852750d775bc12') in 0.012536704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/App/Art/Elements/116-Livermorium.png
+  artifactKey: Guid(90d912f189c074ebea03008b6a8bfe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/116-Livermorium.png using Guid(90d912f189c074ebea03008b6a8bfe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ec880baa978f48bfa93e8728afed73') in 0.015328535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000967 seconds.
+  path: Assets/App/Art/Elements/113-Nihonium.png
+  artifactKey: Guid(c9ba9af5a4ec94e2f875039a962f85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Art/Elements/113-Nihonium.png using Guid(c9ba9af5a4ec94e2f875039a962f85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a3b22792c5f666683b999661d8f5d7e') in 0.011219189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.029228 seconds.
+  path: Assets/App/Materials/electron.mat
+  artifactKey: Guid(8792e5ca7287ff14a81a30e696360dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/electron.mat using Guid(8792e5ca7287ff14a81a30e696360dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eca8469252991ed7567ba03c878d1f1') in 0.064401304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506786 seconds.
+  path: Assets/App/Materials/Elements/carbon.mat
+  artifactKey: Guid(c5bdd2a849d926b4e80e8b9527ac0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/carbon.mat using Guid(c5bdd2a849d926b4e80e8b9527ac0ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b2b8d3e0c33668df652cb7593a56d27') in 0.008276923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/App/Materials/Elements/hydrogen.mat
+  artifactKey: Guid(8a7d0729248b0c143a49c7de46699353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/hydrogen.mat using Guid(8a7d0729248b0c143a49c7de46699353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6a856e7a7b4b7f523c7c145ba710afe') in 0.01334652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/App/Materials/Elements/phosphorus.mat
+  artifactKey: Guid(546282f2028487d47b0c69e9734b4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/phosphorus.mat using Guid(546282f2028487d47b0c69e9734b4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5546650b66101c363d07977cec78afbb') in 0.013925622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/App/Materials/Elements/sodium.mat
+  artifactKey: Guid(b10f88d3843a04370b125508d418e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/sodium.mat using Guid(b10f88d3843a04370b125508d418e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2355b709dfa764f713b91a4b37336f01') in 0.013525013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.475625 seconds.
+  path: Assets/App/Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(5e22ef972110e484b9cec3dec747124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Scenes/Main/ReflectionProbe-0.exr using Guid(5e22ef972110e484b9cec3dec747124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed7cfd1cdb06d3ca0c62b732f16bba5a') in 0.044494012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.021227 seconds.
+  path: Assets/XR/Loaders/ARKitLoader.asset
+  artifactKey: Guid(5bd779dc1098442c281919210e79f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/ARKitLoader.asset using Guid(5bd779dc1098442c281919210e79f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11c8c59ee71b0b721899119a25f985ae') in 0.00098448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.506685 seconds.
+  path: Assets/XR/Settings/ARKitSettings.asset
+  artifactKey: Guid(43a720218138d4e54a8f0f5a1512d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/ARKitSettings.asset using Guid(43a720218138d4e54a8f0f5a1512d2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '952283fbc0f5fd666945868095f077ca') in 0.001326995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

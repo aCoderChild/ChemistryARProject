@@ -1,31 +1,52 @@
-Unity Editor version:    2022.3.61f1 (6c53ebaf375d)
-Branch:                  2022.3/release
+Unity Editor version:    6000.1.2f1 (8e2281df4c52)
+Branch:                  6000.1/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.5 (Build 24F5068b)
-Darwin version:          24.5.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        24576 MB
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Fri May  2 14:16:46 UTC 2025
+Kernel version:          6.14.5-300.fc42.x86_64
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        23764 MB
+Date:                    2025-05-10T07:10:14Z
 Using pre-set license
 Pro License: YES
+Selected window backend: (null) 
+
+(process:6993): Gtk-WARNING **: 14:10:14.866: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Gtk-Message: 14:10:14.944: Failed to load module "appmenu-gtk-module"
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/MacOS/Unity
+Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/maianhpham/Downloads/Chemistry Project
+/mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54402
-Successfully changed project path to: /Users/maianhpham/Downloads/Chemistry Project
-/Users/maianhpham/Downloads/Chemistry Project
+35853
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork
+
+(Unity:6993): Gtk-CRITICAL **: 14:10:15.050: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+
+(Unity:6993): Gtk-CRITICAL **: 14:10:15.050: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+/mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -46,8 +67,6 @@ Successfully changed project path to: /Users/maianhpham/Downloads/Chemistry Proj
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -55,295 +74,425 @@ Successfully changed project path to: /Users/maianhpham/Downloads/Chemistry Proj
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8547983040]  Target information:
+Player connection [140084570215808]  Target information:
 
-Player connection [8547983040]  * "[IP] 192.168.0.189 [Port] 0 [Flags] 2 [Guid] 1880393693 [EditorId] 1880393693 [Version] 1048832 [Id] OSXEditor(0,Mais-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [140084570215808]  * "[IP] 192.168.2.117 [Port] 0 [Flags] 2 [Guid] 982081061 [EditorId] 982081061 [Version] 1048832 [Id] LinuxEditor(16,172.16.0.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [8547983040] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8547983040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140084570215808]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 982081061 [EditorId] 982081061 [Version] 1048832 [Id] LinuxEditor(16,172.16.0.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140084570215808]  * "[IP] 172.16.0.2 [Port] 0 [Flags] 2 [Guid] 982081061 [EditorId] 982081061 [Version] 1048832 [Id] LinuxEditor(16,172.16.0.2) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140084570215808] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140084570215808] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.61f1 (6c53ebaf375d)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/maianhpham/Downloads/Chemistry Project/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M4 Pro (high power)
-Metal devices available: 1
-0: Apple M4 Pro (high power)
-Using device Apple M4 Pro (high power)
-Initializing Metal device caps: Apple M4 Pro
+Initialize engine version: 6000.1.2f1 (8e2281df4c52)
+[Subsystems] Discovering subsystems at path /mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /mnt/nvme0n1p5/Documents/UET/Semester II - 2025/CacVD/ChemistryARProject-fork/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 25.0.4
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_t
+exture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlo
+ck GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 21656144
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56105
+Mono path[0] = '/mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/Managed'
+Mono path[1] = '/mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56993
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
-Registered in 0.004012 seconds.
-- Loaded All Assemblies, in  0.162 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for AppleTV target not found
-objc[8105]: Class XcodeScriptingDelegate is implemented in both /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/AppleTVSupport/arm64/UnityEditor.iOS.Native.dylib (0x13b3845c8) and /Applications/Unity/Hub/Editor/2022.3.61f1/PlaybackEngines/VisionOSPlayer/arm64/UnityEditor.VisionOS.Native.dylib (0x13b3b05c8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 56 ms
-Native extension for OSXStandalone target not found
+Register platform support module: /mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /mnt/nvme0n1p5/Unity Editor/6000.1.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002720 seconds.
+- Loaded All Assemblies, in  0.723 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.233 seconds
-Domain Reload Profiling: 394ms
-	BeginReloadAssembly (39ms)
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1596ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (76ms)
-		LoadAssemblies (40ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (158ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (73ms)
-				TypeCache.ScanAssembly (65ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (233ms)
+		AnalyzeDomain (353ms)
+			TypeCache.Refresh (351ms)
+				TypeCache.ScanAssembly (322ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (873ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (211ms)
+		SetupLoadedEditorAssemblies (773ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (143ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (46ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			InitializePlatformSupportModulesInManaged (142ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Caller must complete domain reload
+Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.330 seconds
-Native extension for AppleTV target not found
-Native extension for VisionOS target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
+- Loaded All Assemblies, in  1.318 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.361 seconds
-Domain Reload Profiling: 692ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  1.295 seconds
+Domain Reload Profiling: 2610ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (15ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (231ms)
-		LoadAssemblies (151ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (478ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (97ms)
-				TypeCache.ScanAssembly (84ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (362ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (403ms)
+				TypeCache.ScanAssembly (370ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1296ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (276ms)
+		SetupLoadedEditorAssemblies (1013ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (705ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.61f1/Unity.app/Contents/Tools/UnityShaderCompiler
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.6 MB). Loaded Objects now: 5027.
-Memory consumption went from 166.0 MB to 164.4 MB.
-Total: 2.618333 ms (FindLiveObjects: 0.101667 ms CreateObjectMapping: 0.047583 ms MarkObjects: 2.021250 ms  DeleteObjects: 0.447500 ms)
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4820 unused Assets / (4.9 MB). Loaded Objects now: 5328.
+Memory consumption went from 89.2 MB to 84.3 MB.
+Total: 21.270111 ms (FindLiveObjects: 0.825543 ms CreateObjectMapping: 1.312964 ms MarkObjects: 11.182808 ms  DeleteObjects: 7.946884 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 63561.197971 seconds.
-  path: Assets/App/Art/Elements/002-Helium.png
-  artifactKey: Guid(672ea648749d44f958917131688a14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Art/Elements/002-Helium.png using Guid(672ea648749d44f958917131688a14a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fe68a8319af6951edd7cf74d594ad1f6') in 0.058666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+  Time since last request: 444.157224 seconds.
+  path: Assets/App/Prefabs/Elements/aluminum 1.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/aluminum 1.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.245089374 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/app/prefabs/elements/aluminum 1.prefab in SourceAssetDB has modification time of '2025-05-10T07:10:14Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  ERROR: Build asset version error: assets/app/prefabs/elements/aluminum 1.prefab in SourceAssetDB has modification time of '2025-05-10T07:10:14Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
 ========================================================================
 Received Import Request.
-  Time since last request: 9.528289 seconds.
-  path: Assets/App/XR/ReferenceImageLibrary.asset
-  artifactKey: Guid(21cf831e6eb7f614b899e8385efbbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/XR/ReferenceImageLibrary.asset using Guid(21cf831e6eb7f614b899e8385efbbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3c6a48cc4d742e0408d3c02a15b4e772') in 0.013151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+  Time since last request: 0.140011 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f367d9e812968b407909b4d3e8f331f9') in 0.015492081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
 ========================================================================
 Received Import Request.
-  Time since last request: 11.986340 seconds.
-  path: Assets/App/Prefabs/Elements/hydrogen 1.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/hydrogen 1.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd015c61fc7a4e808eec8c44049ac2838') in 0.094933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
+  Time since last request: 27.932483 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ed2858aa320817f34d7e4a5bee9c22e') in 0.014223452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
 ========================================================================
 Received Import Request.
-  Time since last request: 7.616398 seconds.
-  path: Assets/App/Prefabs/Elements/helium.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '42e9685faee277282d81687f68282fa0') in 0.009464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
+  Time since last request: 7.772487 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d45fd0f3a05e43af2e982c90369748b') in 0.015031813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
 ========================================================================
 Received Import Request.
-  Time since last request: 74.378330 seconds.
-  path: Assets/App/Prefabs/Elements/helium.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '706905cf393d07b3d1542a75b6aa63d6') in 0.020717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
+  Time since last request: 5.050348 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d2baf91fd094bd495ab4117891a24a1') in 0.014682215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 134
+
 ========================================================================
 Received Import Request.
-  Time since last request: 76.103302 seconds.
-  path: Assets/App/Prefabs/Elements/helium.prefab
-  artifactKey: Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Prefabs/Elements/helium.prefab using Guid(3d6e347731ebe4dd9bc8438edd1f9605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '615d5d6ef595f29350c6a0b8e669a271') in 0.051667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
+  Time since last request: 73.913284 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e525c65772494f2037f42c8b544022a2') in 0.01752108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
 ========================================================================
 Received Import Request.
-  Time since last request: 33.573040 seconds.
-  path: Assets/App/Materials/connector.mat
-  artifactKey: Guid(ec87e1384ea823142a42f37e321a5959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/connector.mat using Guid(ec87e1384ea823142a42f37e321a5959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '53dfb830ace33c14b21e1b5066feb0d5') in 0.034556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 3.983249 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '548dfb5ed03ff1fd6102115c13b914bf') in 0.015383597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/App/Materials/Elements/nitrogen.mat
-  artifactKey: Guid(195b44a3122ed6f45a968a8fb58e30eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/nitrogen.mat using Guid(195b44a3122ed6f45a968a8fb58e30eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2910cbda85cb9b2eca910bcd9fc3a929') in 0.002948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 6.543723 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9aaa7bfbb6c0d36b62bb340a131fafc') in 0.014337112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/App/Materials/Elements/fluorine.mat
-  artifactKey: Guid(5c85630fe7656e74f8a30c4a355071d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/fluorine.mat using Guid(5c85630fe7656e74f8a30c4a355071d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bb316b16ba418391a9f07b869ce80ed1') in 0.003194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 11.493656 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bfac6b1bad87aae13ad6b262cb30fa7') in 0.01519023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/App/Materials/Elements/phosphorus.mat
-  artifactKey: Guid(546282f2028487d47b0c69e9734b4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/phosphorus.mat using Guid(546282f2028487d47b0c69e9734b4c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7d970e28edceb01afa988c7189005638') in 0.004124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 23.370586 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e69c02aec395869722773468419823d0') in 0.013476359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/App/Materials/Elements/oxygen.mat
-  artifactKey: Guid(1c7ea2efd74f16343a02c23d1f4b1801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/oxygen.mat using Guid(1c7ea2efd74f16343a02c23d1f4b1801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aeff8da70f6ee62b2a5aba9497449140') in 0.003635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 2.434605 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4e8878edba10594c64797f49257e698') in 0.011912283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/App/Materials/Elements/sodium.mat
-  artifactKey: Guid(b10f88d3843a04370b125508d418e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/sodium.mat using Guid(b10f88d3843a04370b125508d418e277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e120480c54c34e97cfa1b8bb90a8ec29') in 0.003556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 2.025141 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5eb006c7dd72e98e6d1a4f19f609036') in 0.013688313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/App/Materials/Elements/helium.mat
-  artifactKey: Guid(a5ed03e616b194bc38de5bed76a758e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/App/Materials/Elements/helium.mat using Guid(a5ed03e616b194bc38de5bed76a758e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '712012a7f1cfc1e29015c7affb8cb8e0') in 0.003362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 7.331991 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b9b5fa5b54a1db3954514b2265b828e') in 0.017061826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.324131 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df84e1b4ef6410ae4a1c2c950dfdf487') in 0.016002222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.633102 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72544b5a0c572e91433219056fda1e88') in 0.014287747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.241158 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ead8d7ade1943c338bc026c51680798') in 0.017574265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.866982 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab5319e83f3351c8150a9b8cae8a07c') in 0.018923401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.093634 seconds.
+  path: Assets/App/Prefabs/Elements/sulfur.prefab
+  artifactKey: Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Prefabs/Elements/sulfur.prefab using Guid(140af06f75cce56f086fb94aeb7936ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c249cd68af2e304510992793e9597a8') in 0.015123465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.827241 seconds.
+  path: Packages/com.unity.xr.arkit/Runtime/Unity.XR.ARKit.asmdef
+  artifactKey: Guid(dfd0ce20189d48e5b22bb4134b558f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arkit/Runtime/Unity.XR.ARKit.asmdef using Guid(dfd0ce20189d48e5b22bb4134b558f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '590b523cd23e4e4996d3f679164b50af') in 0.000666456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.949162 seconds.
+  path: Assets/App/Materials/Elements/Elements/aluminum.mat
+  artifactKey: Guid(6bf65aeb975962f38a84e1b72b97627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/aluminum.mat using Guid(6bf65aeb975962f38a84e1b72b97627d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a90252af1513d0402549a34dd9b2484a') in 0.07916115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011937 seconds.
+  path: Assets/App/Materials/Elements/Elements/fluorine.mat
+  artifactKey: Guid(23a276d34ce2c491c9eba76048a0d058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/fluorine.mat using Guid(23a276d34ce2c491c9eba76048a0d058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '340d7c92c02ace312df3922076fdc2f9') in 0.019961976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/App/Materials/Elements/Elements/hydrogen.mat
+  artifactKey: Guid(e1f4ec74d101bb7ad89b4bd6d1b7e150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/hydrogen.mat using Guid(e1f4ec74d101bb7ad89b4bd6d1b7e150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bc9e6d592d28e31e57bc9b6340dd02e') in 0.016187256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/App/Materials/Elements/Elements/phosphorus.mat
+  artifactKey: Guid(765b3b722fc2592ffa3dd7b46ea66962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/phosphorus.mat using Guid(765b3b722fc2592ffa3dd7b46ea66962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2cc37ad762190b76fb43084535d3087') in 0.016174609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/App/Materials/Elements/Elements/oxygen.mat
+  artifactKey: Guid(31fdb8aa4535f6824b6c377c988000c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/oxygen.mat using Guid(31fdb8aa4535f6824b6c377c988000c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29431dec67abeae7e403b6bdf58a038f') in 0.013844167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/App/Materials/Elements/Elements/sodium.mat
+  artifactKey: Guid(663676ab8d92c9ea7b0c877a82d01d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/sodium.mat using Guid(663676ab8d92c9ea7b0c877a82d01d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f31b98ba2ea895d155508dd5ca0bf53') in 0.014231335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/App/Materials/Elements/Elements/nitrogen.mat
+  artifactKey: Guid(fc3929885f4c28afb8b95626bc2642b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/nitrogen.mat using Guid(fc3929885f4c28afb8b95626bc2642b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c43d715546bffdc614078cb0abbbb50') in 0.014349315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/App/Materials/Elements/Elements/helium.mat
+  artifactKey: Guid(22d9d5cc9af3ad6eea9a8034b5f6007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/helium.mat using Guid(22d9d5cc9af3ad6eea9a8034b5f6007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4d390253d7390d2613c6eac406d026') in 0.013822251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/App/Materials/Elements/Elements/chlorine.mat
+  artifactKey: Guid(92355f066eae0433fb413637e3cd8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/App/Materials/Elements/Elements/chlorine.mat using Guid(92355f066eae0433fb413637e3cd8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64483602426dda7ff7d05bf2a61c0465') in 0.014604445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
 AssetImportWorker is now disconnected from the server
 Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

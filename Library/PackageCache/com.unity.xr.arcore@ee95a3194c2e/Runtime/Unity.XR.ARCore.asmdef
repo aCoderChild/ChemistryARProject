@@ -1,0 +1,40 @@
+{
+    "name": "Unity.XR.ARCore",
+    "rootNamespace": "",
+    "references": [
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.Management",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.XR.CoreUtils"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "0.9.6-preview",
+            "define": "UNITY_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "17.0.0",
+            "define": "URP_17_OR_NEWER"
+        },
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "7.0.0",
+            "define": "URP_7_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}
