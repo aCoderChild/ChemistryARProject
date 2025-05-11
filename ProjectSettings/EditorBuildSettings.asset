@@ -1,12 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!1045 &1
-EditorBuildSettings:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Scenes: []
-  m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9b7c3f6b55b5243ac8b1b80a697a7d2d, type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 43a720218138d4e54a8f0f5a1512d2a1, type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5636878d005c141919b1cb28c679b6a7, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 861a306a6155b48d1bf237199d8994ae, type: 2}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca93ac86b8e5a301fe4381d6af8fec7d969615a62b8379ed5405f0c88440e6d9
+size 619
