@@ -60,14 +60,46 @@ public class Element : MonoBehaviour
             }
 
             // Reaction logic (Example: H2O reaction)
-            if (symbols.Count == 2 && symbols[0] == "H" && symbols[1] == "H")
-            {
+            // if (symbols.Count == 2 && symbols[0] == "H" && symbols[1] == "H")
+            // {
+            //     atom.SetActive(false);
+            //     triggers[0].element.atom.SetActive(false);
+            //     triggers[1].element.atom.SetActive(false);
+
+            //     if (reactions.ContainsKey("H2O"))
+            //         reactions["H2O"].SetActive(true);
+            // }
+            if (symbol == "O") {
                 atom.SetActive(false);
                 triggers[0].element.atom.SetActive(false);
                 triggers[1].element.atom.SetActive(false);
 
                 if (reactions.ContainsKey("H2O"))
                     reactions["H2O"].SetActive(true);
+            } else if (symbol == "C") {
+                atom.SetActive(false);
+                triggers[0].element.atom.SetActive(false);
+                triggers[1].element.atom.SetActive(false);
+
+                if (reactions.ContainsKey("CO2"))
+                    reactions["CO2"].SetActive(true);
+            } else if (symbol == "H") {
+                atom.SetActive(false);
+                triggers[0].element.atom.SetActive(false);
+                
+                if (reactions.ContainsKey("HCl"))
+                    reactions["HCl"].SetActive(true);
+            }  else if (symbol == "Na") {
+                atom.SetActive(false);
+                triggers[0].element.atom.SetActive(false);
+        
+
+                if (reactions.ContainsKey("NaCl"))
+                    reactions["NaCl"].SetActive(true);
+            } 
+            else
+            {
+                Debug.LogWarning("No valid reaction found for: " + symbol);
             }
         }
     }

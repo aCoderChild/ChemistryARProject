@@ -23,129 +23,219 @@ MonoBehaviour:
       m_GuidLow: 4753294396763492801
       m_GuidHigh: 16909335265601004942
     m_SerializedTextureGuid:
-      m_GuidLow: 12992189769460232548
-      m_GuidHigh: 560166813604770488
+      m_GuidLow: 5576621975951559664
+      m_GuidHigh: 9094773968596398057
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Hydrogen
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: 133acbf024244d64e96fa8febc20377e, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5618807921101510770
       m_GuidHigh: 7681992275341162929
     m_SerializedTextureGuid:
-      m_GuidLow: 358516474640365113
-      m_GuidHigh: 9031028177188131384
+      m_GuidLow: 17772423995701902964
+      m_GuidHigh: 11815601612209732283
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Oxygen
-    m_Texture: {fileID: 2800000, guid: 8d107639b4d504f93892d75947a8547d, type: 3}
+    m_Texture: {fileID: 2800000, guid: 3570be745576f6a4bb3a4b871073f9a3, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4852813774840587040
       m_GuidHigh: 2297773878632284548
     m_SerializedTextureGuid:
-      m_GuidLow: 7249042027598459719
-      m_GuidHigh: 5136859323186366377
+      m_GuidLow: 537192373893544030
+      m_GuidHigh: 14816908083521401514
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Carbon
-    m_Texture: {fileID: 2800000, guid: 28e23347c5516499a947ad9356ca4947, type: 3}
+    m_Texture: {fileID: 2800000, guid: 2df9385e7d9e0774aa32e80b663ba0cd, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5443026146828987566
       m_GuidHigh: 14819590256829636768
     m_SerializedTextureGuid:
-      m_GuidLow: 7215979970223233886
-      m_GuidHigh: 4261080801310303960
+      m_GuidLow: 6202673509352384781
+      m_GuidHigh: 1724661380075449531
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Nitrogen
-    m_Texture: {fileID: 2800000, guid: 0f7d5b5e4f8d6424d86656a16966223b, type: 3}
+    m_Texture: {fileID: 2800000, guid: 8eaca90d52b15614bb6c3b35633aef17, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5560056558748652649
       m_GuidHigh: 10425701924361360263
     m_SerializedTextureGuid:
-      m_GuidLow: 16452128047684845548
-      m_GuidHigh: 14485272174719368265
+      m_GuidLow: 2937500681348953838
+      m_GuidHigh: 57225416694444152
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Fluorine
-    m_Texture: {fileID: 2800000, guid: d17effecb34ae451497cfff04b0606c9, type: 3}
+    m_Texture: {fileID: 2800000, guid: 5f45b6ee194e28c47830329a364ecb00, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5450225911710427169
       m_GuidHigh: 8463230533502753941
     m_SerializedTextureGuid:
-      m_GuidLow: 1471199876142617139
-      m_GuidHigh: 7565225023692190280
+      m_GuidLow: 6981962088630103196
+      m_GuidHigh: 5059929402724869624
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Aluminum
-    m_Texture: {fileID: 2800000, guid: 1b145233c07e146a48b211a71314fd68, type: 3}
+    m_Texture: {fileID: 2800000, guid: 100aac9ce98760e4f865f8adfb7a3846, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5418284556013061932
       m_GuidHigh: 2572959263242636200
     m_SerializedTextureGuid:
-      m_GuidLow: 10668997038436809211
-      m_GuidHigh: 8554213734945867770
+      m_GuidLow: 17461607331805875273
+      m_GuidHigh: 158778046429538170
     m_Size: {x: 0.08, y: 0.08}
     m_SpecifySize: 1
     m_Name: Phosphorus
-    m_Texture: {fileID: 2800000, guid: 99b879fbe447940ffa4737dc11acb676, type: 3}
+    m_Texture: {fileID: 2800000, guid: 4ba54c49175af2547a2790bfca173402, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5760793904019607833
       m_GuidHigh: 17306608496937741486
     m_SerializedTextureGuid:
-      m_GuidLow: 8416141274061963971
-      m_GuidHigh: 6302841658904513787
+      m_GuidLow: 13174196018279973922
+      m_GuidHigh: 14694192814731733848
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: Sodium
-    m_Texture: {fileID: 2800000, guid: ebf782c323e574ccfb8c894a18317857, type: 3}
+    m_Name: sodium
+    m_Texture: {fileID: 2800000, guid: 8ef18422257ab6d458ab2e078342eccb, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5600189819448890083
       m_GuidHigh: 18159328878130036379
     m_SerializedTextureGuid:
-      m_GuidLow: 14130244605855660980
-      m_GuidHigh: 5962537157222699418
+      m_GuidLow: 10422544788232156143
+      m_GuidHigh: 29445647741792234
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
     m_Name: Chlorine
-    m_Texture: {fileID: 2800000, guid: 9167fbb4b69ac4189a915320f42fbf52, type: 3}
+    m_Texture: {fileID: 2800000, guid: 8e2d33ef514390a4eaafd41da99c6800, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5486267071280433910
       m_GuidHigh: 3197921933907338139
     m_SerializedTextureGuid:
-      m_GuidLow: 4970131883169850952
-      m_GuidHigh: 11823227101865152856
+      m_GuidLow: 5076745005085184440
+      m_GuidHigh: 10312278817392392408
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: Helium
-    m_Texture: {fileID: 2800000, guid: 672ea648749d44f958917131688a14a4, type: 3}
+    m_Name: helium
+    m_Texture: {fileID: 2800000, guid: 335751b838af4674d8787597f2921c8f, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4784271253641588094
       m_GuidHigh: 17718730367763774382
     m_SerializedTextureGuid:
-      m_GuidLow: 4965191678189555144
-      m_GuidHigh: 3551052699802742953
+      m_GuidLow: 12584421826166902250
+      m_GuidHigh: 10169204859336501144
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: Silicon
-    m_Texture: {fileID: 2800000, guid: 4c36cdc8e78644e7a9306fbe9ddf4731, type: 3}
+    m_Name: silicon
+    m_Texture: {fileID: 2800000, guid: cc59cdead8f9aea498a7edd8f045208d, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5024655403193074040
       m_GuidHigh: 15448231956530608798
     m_SerializedTextureGuid:
-      m_GuidLow: 2618708150293896368
-      m_GuidHigh: 15812859788794526778
+      m_GuidLow: 13561579224911091640
+      m_GuidHigh: 95951704213546282
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: Neon
-    m_Texture: {fileID: 2800000, guid: 2cb01cb0853024573afc27a2329072db, type: 3}
+    m_Name: neon
+    m_Texture: {fileID: 2800000, guid: e62497b86873bc342ae53d0d91e35401, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5688074200496473317
       m_GuidHigh: 5480193157074011813
     m_SerializedTextureGuid:
-      m_GuidLow: 1508398967377079832
-      m_GuidHigh: 12882017653238534202
+      m_GuidLow: 6274658832226648701
+      m_GuidHigh: 5333509384359343785
     m_Size: {x: 0.06, y: 0.06}
     m_SpecifySize: 1
-    m_Name: Potassium
-    m_Texture: {fileID: 2800000, guid: 7613ae18e8de14ee3a1098c3cd1ec6b2, type: 3}
+    m_Name: potassium
+    m_Texture: {fileID: 2800000, guid: 9da3027d10f65714a976f3e4866e044a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4652310391076933353
+      m_GuidHigh: 16275818886885939382
+    m_SerializedTextureGuid:
+      m_GuidLow: 59836223977127966
+      m_GuidHigh: 5207364668001294442
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: sulfur
+    m_Texture: {fileID: 2800000, guid: 8adb801e94ba00d46a18236493464448, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5719181564195210336
+      m_GuidHigh: 7267803245067416748
+    m_SerializedTextureGuid:
+      m_GuidLow: 4784090444903670340
+      m_GuidHigh: 657643131751081720
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: lithium
+    m_Texture: {fileID: 2800000, guid: 95d2e24480e94264f8a6ffa8f16a2009, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5177440407797613607
+      m_GuidHigh: 844709183431305906
+    m_SerializedTextureGuid:
+      m_GuidLow: 14151535584845647226
+      m_GuidHigh: 16737896080536493834
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: beryllium
+    m_Texture: {fileID: 2800000, guid: e9064d7a5aa2c4640adfc7d7cdf348e8, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5573743703450307719
+      m_GuidHigh: 3708283690619630265
+    m_SerializedTextureGuid:
+      m_GuidLow: 17975106137788904886
+      m_GuidHigh: 2444535116040106010
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: copper
+    m_Texture: {fileID: 2800000, guid: ced9f5b667cbf9741af08980bcbbec21, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5483650456744103348
+      m_GuidHigh: 17934117761790594750
+    m_SerializedTextureGuid:
+      m_GuidLow: 708466175697384545
+      m_GuidHigh: 11033914939171626923
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: zinc
+    m_Texture: {fileID: 2800000, guid: b1d27461fa3b09d4ab5f334f2d572099, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5345620079607555767
+      m_GuidHigh: 7055884312992399530
+    m_SerializedTextureGuid:
+      m_GuidLow: 9467954211243462649
+      m_GuidHigh: 5981739319479235786
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: iron
+    m_Texture: {fileID: 2800000, guid: 16d48ff9ee318364caf48bec37680353, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4939315110564280454
+      m_GuidHigh: 10733706044880782011
+    m_SerializedTextureGuid:
+      m_GuidLow: 13989387345825837859
+      m_GuidHigh: 13340025362549395931
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: oxygen2
+    m_Texture: {fileID: 2800000, guid: 0d4b332349acc224db517585634a21b9, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4951782480973901688
+      m_GuidHigh: 9245235031246940577
+    m_SerializedTextureGuid:
+      m_GuidLow: 11512597943938127422
+      m_GuidHigh: 17076209742762926216
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: calcium
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5263450348919723215
+      m_GuidHigh: 7457635452639575168
+    m_SerializedTextureGuid:
+      m_GuidLow: 15421582418774702682
+      m_GuidHigh: 3730008053706466329
+    m_Size: {x: 0.08, y: 0.08}
+    m_SpecifySize: 1
+    m_Name: magnesium
+    m_Texture: {fileID: 2800000, guid: b979ba5a7780d604192485fa8fa6c333, type: 3}
